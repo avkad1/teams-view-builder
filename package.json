@@ -1,6 +1,6 @@
 {
   "name": "@springrole/teams-view-builder",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.6",
   "description": "Teams view builder containing re-usable blocks to be used on any ms-teams app",
   "main": "./lib",
   "scripts": {
@@ -9,17 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpringRole/teams-view-builder.git"
+    "url": "git+https://dev.azure.com/SpringworksDev/Trivia/_git/teams-view-builder.git"
   },
   "author": "Karan Trehan <karan.trehan@springworks.in>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SpringRole/teams-view-builder/issues"
-  },
-  "homepage": "https://github.com/SpringRole/teams-view-builder#readme",
   "dependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
     "botbuilder": "^4.11.1",
     "lodash.isempty": "^4.4.0",
     "node-emoji": "^1.11.0"
@@ -27,8 +21,5 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "prettier": "^2.6.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
