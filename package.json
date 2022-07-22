@@ -1,6 +1,6 @@
 {
   "name": "@springrole/teams-view-builder",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Teams view builder containing re-usable blocks to be used on any ms-teams app",
   "main": "./lib",
   "scripts": {
