@@ -15,13 +15,11 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: "14.x"
-  - task: npmAuthenticate@0
+  - task: Npm@1
     inputs:
-      workingFile: ".npmrc"
-    displayName: "Authenticate with NPM"
-  - script: |
-      set e
-      npm install
+      command: 'install'
+      workingDir: './'
+      verbose: true
     displayName: "Install dependencies"
   - script: |
       git config --global user.email "build-ado@springworks.in"
@@ -31,6 +29,11 @@ steps:
   - script: |
       git push origin HEAD:$(Build.SourceBranchName)
     displayName: "Updated version in code"
-  - script: |
-      npm publish
-    displayName: "Publish Package"
+  - task: Npm@1
+    inputs:
+      command: 'publish'
+      workingDir: './'
+      verbose: true
+      publishRegistry: 'useFeed'
+      publishFeed: 'cad167df-8d9c-44fe-8127-6d49aca56571'
+    displayName: "Publish pacakge"
