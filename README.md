@@ -1,4 +1,4 @@
-# @springrole/teams-view-builder
+# teams-view-builder
 
 ## Getting started
 
@@ -7,7 +7,7 @@ This is a simple package that can be used to create the blocks and views require
 ### Installation
 
 ```console
- npm install --save @springrole/teams-view-builder
+ npm install --save teams-view-builder
 ```
 
 ---
@@ -17,7 +17,7 @@ This is a simple package that can be used to create the blocks and views require
 #### Render a Text Block in an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 renderTextBlock() {
     const body = [
@@ -32,7 +32,7 @@ renderTextBlock() {
 
 // OR
 
-const { Elements, Cards } = require("@springrole/teams-view-builder");
+const { Elements, Cards } = require("teams-view-builder");
 
 renderTextBlock() {
     const body = [
@@ -49,7 +49,7 @@ renderTextBlock() {
 #### Render an Image in an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 renderImage() {
     const body = [
@@ -68,7 +68,7 @@ renderImage() {
 #### Render a ColumnSet in an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 renderColumnSet() {
     const body = [
@@ -102,7 +102,7 @@ renderColumnSet() {
 #### Tag a user in the text block of an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 tagUserInTextBlock(userName, userId) {
     const body = [
@@ -138,7 +138,7 @@ tagUserInTextBlock(userName, userId) {
 #### Render a Text Block with Action Buttons in an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 renderTextBlockWithActions() {
     const body = [
@@ -201,7 +201,7 @@ renderTextBlockWithActions() {
 #### Render Select Dropdown in an adaptive card
 
 ```javascript
-const TeamsViewBuilder = require("@springrole/teams-view-builder");
+const TeamsViewBuilder = require("teams-view-builder");
 
 renderSelectDropDown() {
     const choices = [
@@ -236,4 +236,4 @@ renderSelectDropDown() {
 
 ### License
 
-@springrole/teams-view-builder is licensed under the [MIT License](https://github.com/SpringRole/teams-view-builder/blob/main/LICENSE.md).
+teams-view-builder is licensed under the [MIT License](https://github.com/avkad1/teams-view-builder/blob/main/LICENSE.md).

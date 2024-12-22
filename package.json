@@ -1,6 +1,6 @@
 {
-  "name": "@springrole/teams-view-builder",
-  "version": "0.0.11",
+  "name": "teams-view-builder",
+  "version": "0.0.1",
   "description": "Teams view builder containing re-usable blocks to be used on any ms-teams app",
   "main": "./lib",
   "scripts": {
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://dev.azure.com/SpringworksDev/Trivia/_git/teams-view-builder.git"
+    "url": "https://github.com/avkad1/teams-view-builder"
   },
-  "author": "Karan Trehan <karan.trehan@springworks.in>",
+  "author": "Avinash Ramesha <avinash.bhattakr@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "botbuilder": "^4.11.1",
